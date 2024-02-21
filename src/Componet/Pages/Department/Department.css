@@ -1,0 +1,57 @@
+/* Department.css */
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9; /* Light gray background */
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .form-field {
+    width: 100%;
+    margin-bottom: 20px; /* Adjusted margin for space between text fields */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style the buttons */
+  .button-container button {
+    padding: 12px;
+    width: 48%;
+    cursor: pointer;
+    border: 1px solid #1976d2;
+    background-color: #1976d2;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  /* Add hover effect on buttons */
+  .button-container button:hover {
+    background-color: #155997;
+  }
+  
+  /* Style the form error messages */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .spacing {
+    padding-left: 5%;
+  }
+  
+  
